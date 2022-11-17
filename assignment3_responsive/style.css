@@ -64,6 +64,18 @@ p{
 a.navbar{
     display: none;
 }
+footer{
+    background-color: grey;
+    padding-top: 50px;
+}
+.foot{
+    display: block;
+    align-items: center;
+}
+
+
+
+
 @media screen and (max-width: 650px){
     .main{
         display: flex;
@@ -85,5 +97,9 @@ a.navbar{
     a.navbar{
         display: block;
     }
+    nav{
+        width: 10%;
+    }
+  
 
 }
